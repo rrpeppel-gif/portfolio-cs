@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecten | Robin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Robin</h1>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/over-mij">Over mij</a></li>
+            <li><a href="/projecten">Projecten</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="card">
+
+            <h2>Mijn Projecten</h2>
+
+            <div class="project-grid">
+
+                <!-- PROJECT 1 -->
+
+
+                <a href="/dashboard" class="project-link">
+
+                    <div class="project-card">
+
+                        <h3>Security Dashboard</h3>
+
+                        <p>
+                            Dashboard voor monitoring, logging en visualisatie
+                            van security events en netwerkdata.
+                        </p>
+
+                        <ul>
+                            <li>Python</li>
+                            <li>Dashboard Design</li>
+                            <li>Cyber Security</li>
+                            <li>Data Visualisatie</li>
+                        </ul>
+
+                        <span class="project-button">
+                            Bekijk Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+                <!-- PROJECT 3 -->
+
+                <a href="/punishing-home" class="project-link">
+
+                    <div class="project-card">
+
+                        <h3>Punishing Home</h3>
+
+                        <p>
+                            Onderzoek/project rondom dark patterns,
+                            gebruikersgedrag en manipulatieve interfaces.
+                        </p>
+
+                        <ul>
+                            <li>Research</li>
+                            <li>Dark Patterns</li>
+                            <li>Analyse</li>
+                            <li>Realisatie</li>
+                        </ul>
+
+                        <span class="project-button">
+                            Bekijk Project →
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Robin | Cyber Security Portfolio</p>
+    </footer>
+
+</body>
+
+</html>

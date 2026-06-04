@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin | Cyber Security Portfolio</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Robin</h1>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/over-mij">Over mij</a></li>
+            <li><a href="/projecten">Projecten</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+
+        <section class="hero">
+
+            <div>
+
+                <h2>Cyber Security Portfolio</h2>
+
+                <p>
+                    Tweedejaars HBO-ICT student aan de Hogeschool van Amsterdam,
+                    gespecialiseerd in Cyber Security, networking en ethical hacking.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="/projecten" class="btn">
+                        Bekijk mijn projecten
+                    </a>
+
+                    <a href="{{ url_for('static', filename='cv/Robin_CV.pdf') }}" class="btn btn-secondary" download>
+                        📄 Download CV
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </header>
+
+    <footer>
+        <p>© 2026 Robin | Cyber Security Portfolio</p>
+    </footer>
+
+</body>
+
+</html>

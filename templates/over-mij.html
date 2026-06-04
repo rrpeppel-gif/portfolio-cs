@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over mij | Robin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Robin</h1>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/over-mij">Over mij</a></li>
+            <li><a href="/projecten">Projecten</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="card">
+
+            <div class="about-container">
+
+                <div class="about-image">
+                    <img src="{{ url_for('static', filename='images/profiel.jpg') }}" alt="Robin">
+                </div>
+
+                <div class="about-text">
+
+                    <h2>Over mij</h2>
+
+                    <p>
+                        Mijn naam is Robin en ik ben momenteel tweedejaars
+                        HBO-ICT student aan de Hogeschool van Amsterdam.
+                        Binnen mijn opleiding focus ik mij op Cyber Security,
+                        networking en ethical hacking.
+                    </p>
+
+                    <p>
+                        Op dit moment volg ik de studio Dark Tech,
+                        waarin we onderzoeken hoe technologie gebruikersgedrag
+                        beïnvloedt en welke impact dit heeft op security,
+                        privacy en online gedrag.
+                    </p>
+
+                    <p>
+                        Ik vind het interessant om technische problemen op te lossen,
+                        netwerken te beveiligen en nieuwe security-technieken te leren.
+                        Daarnaast werk ik graag aan praktijkprojecten waarmee ik mijn
+                        technische vaardigheden verder ontwikkel.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Python</span>
+                <span>Linux</span>
+                <span>Networking</span>
+                <span>Cyber Security</span>
+                <span>Wireshark</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Robin | Cyber Security Portfolio</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Dashboard | Robin</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Robin</h1>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/over-mij">Over mij</a></li>
+            <li><a href="/projecten">Projecten</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+
+    <header class="hero-project">
+        <div class="hero-text">
+
+            <span class="tag">Cyber Security Project</span>
+
+            <h2>Security Dashboard</h2>
+
+            <p>
+                Een web-based security dashboard gebouwd met Flask, MySQL en Python.
+                Het systeem bevat gebruikersbeheer, role-based authentication,
+                data visualisatie en security monitoring van netwerklogs.
+            </p>
+
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- OVER HET PROJECT -->
+
+        <section class="card">
+
+            <h2>Over het Project</h2>
+
+            <div class="split-section">
+
+                <div class="split-text">
+
+                    <p>
+                        Dit project is ontwikkeld als een security monitoring platform
+                        waarin verschillende gebruikers toegang krijgen tot specifieke dashboards.
+                    </p>
+
+                    <p>
+                        Het systeem analyseert logdata uit een database en visualiseert
+                        netwerkverkeer, HTTP-statuscodes en verdachte activiteit via grafieken.
+                    </p>
+
+                    <p>
+                        Daarnaast bevat het platform een secret management systeem,
+                        gebruikersbeheer en role-based access control.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- FEATURES -->
+
+        <section class="card">
+
+            <h2>Belangrijkste Functionaliteiten</h2>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+
+                    <h3>Authenticatie & Rollen</h3>
+
+                    <p>
+                        Gebruikers loggen veilig in via bcrypt password hashing
+                        en worden automatisch doorgestuurd naar hun eigen dashboard.
+                    </p>
+
+                    <ul>
+                        <li>Flask Sessions</li>
+                        <li>bcrypt hashing</li>
+                        <li>Role-based access control</li>
+                        <li>User / Admin / Security Manager</li>
+                    </ul>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>Security Monitoring</h3>
+
+                    <p>
+                        Analyse van HTTP logs en netwerkverkeer
+                        via dynamische grafieken.
+                    </p>
+
+                    <ul>
+                        <li>HTTP statuscodes</li>
+                        <li>Top IP-adressen</li>
+                        <li>Verkeer per dag</li>
+                        <li>HTTP methodes</li>
+                    </ul>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>ETL Pipeline</h3>
+
+                    <p>
+                        CSV-logbestanden worden automatisch verwerkt
+                        en opgeslagen in MySQL.
+                    </p>
+
+                    <ul>
+                        <li>Data validatie</li>
+                        <li>Batch processing</li>
+                        <li>Pandas data analyse</li>
+                        <li>MySQL integratie</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TECH STACK -->
+
+        <section class="card">
+
+            <h2>Technologieën</h2>
+
+            <div class="skills">
+
+                <span>Python</span>
+                <span>Flask</span>
+                <span>MySQL</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Cyber Security</span>
+                <span>Data Analyse</span>
+                <span>ETL</span>
+                <span>bcrypt</span>
+                <span>Jinja2</span>
+
+            </div>
+
+        </section>
+
+        <!-- TECHNISCHE DETAILS -->
+
+        <section class="card">
+
+            <h2>Technische Highlights</h2>
+
+            <div class="system-text">
+                Flask Blueprints voor modulaire architectuur
+            </div>
+
+            <div class="system-text">
+                Role-based authentication met sessiebeheer
+            </div>
+
+            <div class="system-text">
+                Data visualisatie met Pandas & Matplotlib
+            </div>
+
+            <div class="system-text">
+                ETL verwerking van logbestanden naar MySQL database
+            </div>
+
+            <div class="system-text">
+                CRUD functionaliteit voor gebruikersbeheer
+            </div>
+
+        </section>
+
+        <!-- WAT IK HEB GELEERD -->
+
+        <section class="card">
+
+            <h2>Wat ik heb geleerd</h2>
+
+            <p>
+                Tijdens dit project heb ik ervaring opgedaan met backend development,
+                database ontwerp, security principes en data visualisatie.
+            </p>
+
+            <p>
+                Daarnaast heb ik geleerd hoe Flask Blueprints gebruikt worden
+                voor schaalbare applicaties en hoe logdata geanalyseerd kan worden
+                binnen een security omgeving.
+            </p>
+
+        </section>
+
+        <footer>
+            <p>© 2026 Robin | Cyber Security Portfolio</p>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

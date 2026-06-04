@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punishing Home | Resultaten</title>
+
+    ```
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    ```
+
+</head>
+
+<body>
+
+    ```
+    <!-- NAVIGATIE -->
+    <nav>
+        <h1>Robin</h1>
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/over-mij">Over mij</a></li>
+            <li><a href="/projecten">Projecten</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="card hero-project">
+
+            <div class="hero-text">
+
+                <span class="tag">Project Resultaten</span>
+
+                <h2>Punishing Home</h2>
+
+                <p>
+                    Hieronder zie je de verschillende onderdelen van het uiteindelijke prototype.
+                    De screenshots laten zien hoe AI-monitoring, interactie en prestatie-feedback
+                    samenkomen binnen de ervaring.
+                </p>
+
+                <div class="project-links">
+                    <a href="/punishing-home" class="btn secondary">← Terug naar project</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- STARTSCHERM -->
+        <section class="card">
+
+            <h2>Startscherm</h2>
+
+            <p>
+                Het project begint met een normaal ogend beginscherm zonder directe AI-interactie.
+                Dit creëert een vals gevoel van controle bij de gebruiker.
+            </p>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/begin.jpg') }}" alt="Normaal beginscherm">
+                </div>
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/begin-AI.jpg') }}" alt="Beginscherm met AI stem">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INTERACTIEVE ERVARING -->
+        <section class="card">
+
+            <h2>Interactieve Ervaring</h2>
+
+            <p>
+                Tijdens de ervaring wordt de gebruiker ondergedompeld in een interactieve omgeving
+                waarin keuzes en gedrag continu worden geobserveerd.
+            </p>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/spel.jpg') }}" alt="Spel omgeving">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- VRAGEN & FEEDBACK -->
+        <section class="card">
+
+            <h2>Vragen & Monitoring</h2>
+
+            <p>
+                De gebruiker krijgt verschillende vragen en opdrachten terwijl het systeem
+                realtime gedrag analyseert en feedback geeft op de dashboard.
+            </p>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/vraag1.jpg') }}" alt="Vraag 1">
+                </div>
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/vraag2.jpg') }}" alt="Vraag 2">
+                </div>
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/vraag3.jpg') }}" alt="Vraag 3">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- DASHBOARD -->
+        <section class="card">
+
+            <h2>Dashboard & Resultaten</h2>
+
+            <p>
+                Na afloop krijgt de gebruiker inzicht in prestaties, focusscores en gedrag
+                via een overzichtelijk dashboard.
+            </p>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/dash1.jpg') }}" alt="Dashboard overzicht 1">
+                </div>
+
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='images/dash2.jpg') }}" alt="Dashboard overzicht 2">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONCLUSIE -->
+        <section class="card">
+
+            <h2>Conclusie</h2>
+
+            <p>
+                Het eindresultaat laat zien hoe AI en monitoring gecombineerd kunnen worden
+                om gebruikersgedrag actief te beïnvloeden.
+            </p>
+
+            <p>
+                Door observatie, feedback en prestatiedruk ontstaat een ervaring waarin
+                gebruikers hun gedrag bewust of onbewust aanpassen.
+            </p>
+
+        </section>
+
+        <!-- TERUG -->
+        <section class="card">
+
+            <h2>Terug naar project</h2>
+
+            <p>
+                Wil je de volledige case study bekijken? Ga terug naar de projectpagina.
+            </p>
+
+            <a href="/punishing-home" class="btn">
+                ← Terug
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Robin | Cyber Security Portfolio</p>
+    </footer>
+    ```
+
+</body>
+
+</html>
