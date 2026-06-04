@@ -22,6 +22,10 @@ def dashboard():
 def punishing():
     return render_template("punishing-home.html")
 
+@app.route("/punishing-home-resultaten")
+def punishing_home_resultaten():
+    return render_template("punishing-home-resultaten.html")
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
